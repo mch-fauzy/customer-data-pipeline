@@ -54,9 +54,10 @@ curl -X POST http://localhost:8000/api/ingest
 
 ## Interactive API Docs (Swagger UI)
 
+- **Flask Mock Server**: http://localhost:5000/docs
 - **FastAPI Pipeline**: http://localhost:8000/docs
 
-FastAPI auto-generates interactive Swagger UI where you can test all endpoints directly from the browser. Flask does not include built-in Swagger support.
+Both services provide interactive Swagger UI where you can test all endpoints directly from the browser.
 
 ## Testing
 
